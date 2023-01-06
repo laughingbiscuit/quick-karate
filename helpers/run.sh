@@ -2,4 +2,4 @@
 set -e
  
 cp /tmp/FeaturesTest.java /karate/src/test/java/features/FeaturesTest.java
-mvn test -q
+DISPLAY=localhost:0.0 mvn test -q
